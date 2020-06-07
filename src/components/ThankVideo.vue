@@ -10,7 +10,7 @@
             <p>We're in a season of simplification, but we're determined to make simple as special as ever.
                 Take us up on a complimentary hand written note with every online order.</p>
             <div class="explore">
-                hi
+                <button class="btn">Explore Gifting</button>
             </div>
 
         </div>
@@ -29,6 +29,8 @@
     .container {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
+        background-color: #f5f5f0;
+        margin-top: -2rem;
     }
 
     .video {
@@ -70,8 +72,28 @@
         font-size: 1rem;
 
     }
-    .explore{
-        border: 2px solid red;
+
+    .explore {
+
+    }
+
+    .btn {
+        background-color: white; /* Green */
+        border: 1px solid black;
+        color: black;
+        padding: 1.2rem 5rem;
+        text-align: center;
+        cursor: pointer;
+        display: inline-block;
+        font-size: .8rem;
+        margin: 2rem 0;
+    }
+
+    .btn:hover {
+        background-color: black; /* Green */
+        border: 1px solid black;
+        color: white;
+
     }
 
     .image {
